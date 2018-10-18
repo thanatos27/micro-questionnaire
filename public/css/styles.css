@@ -1,0 +1,16 @@
+.start-btn {
+    background-color: #f05f40;
+    border-color: #f05f40;
+    border-radius: 300px;
+    padding: 1rem 4rem;
+    font-weight: 600;
+}
+
+.start-btn:hover, .start-btn:active .start-btn:focus {
+    background-color: #f37e66 !important;
+    border-color: #f05f40 !important;
+}
+
+.start-btn:focus {
+    box-shadow: 0 0 0 0.2rem #fbd8d1 !important;
+}
