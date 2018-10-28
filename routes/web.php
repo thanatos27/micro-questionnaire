@@ -16,3 +16,5 @@
 //});
 
 Route::get('/', 'HomeController@show')->name('home');
+
+Route::resource('votes', 'VoteController');
